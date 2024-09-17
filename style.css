@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.heading {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  min-height: 15vh;
+  background-image: linear-gradient(#09203f, #537895);
+}
+.heading h1 {
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav-links,
+ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  list-style-type: none;
+  margin-top: 5vh;
+}
+.nav-btns a {
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav-btns a:hover {
+  color: rgb(241, 179, 125);
+}
+.nav-btns a:visited {
+  color: rgb(241, 179, 125);
+}
+.container {
+  position: relative;
+  max-width: 70vh;
+  height: 50vh;
+  margin: auto;
+  margin-top: 20vh;
+  background-color: #09203f;
+  border-radius: 10%;
+}
+.myForm {
+  color: white;
+  padding-left: 17vh;
+  padding-top: 10vh;
+}
+.description {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.myForm button {
+  min-width: 30vh;
+  min-height: 6vh;
+  margin-top: 80px;
+  border-radius: 8px;
+  border: 5px solid rgb(46, 46, 134);
+}
